@@ -6,7 +6,7 @@
 * Practice writing functions
 * Learn how to use JavaScript's `toUpperCase()` and `toLowerCase()` methods
 * Practice using `return` and `console.log()`
-* Practice creating `if...else if...else` statements
+* Practice creating conditional statements
 
 ## Introduction
 
