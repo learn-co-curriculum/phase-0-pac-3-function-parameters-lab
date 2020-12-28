@@ -368,5 +368,3 @@ Remember that punctuation is important! Humans might be able to understand that
 same thing but JavaScript will not consider these equal!
 
 Good luck!
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-intro-to-functions-lab'>Intro to Functions Lab</a> on Learn.co and start learning to code for free.</p>
