@@ -1,50 +1,26 @@
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO');
+describe('introduction(name)', function() {
+  it('takes in an argument of a name and returns a phrase with that name using string interpolation', function() {
+    expect(introduction("Josh")).toEqual("Hi, my name is Josh.");
+    expect(introduction("Nancy")).toEqual("Hi, my name is Nancy.");
   })
 })
 
-describe('whisper(string)', function() {
-  it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toEqual('hello');
+describe('introductionWithLanguage(name, language)', function() {
+  it('takes in two arguments, a name and a language, and returns a phrase using those arguments', function() {
+    expect(introductionWithLanguage("Josh", "Ember.js")).toEqual("Hi, my name is Josh and I am learning to program in Ember.js.");
+    expect(introductionWithLanguage("Nancy", "React")).toEqual("Hi, my name is Nancy and I am learning to program in React.");
   })
 })
 
-describe('logShout(string)', function() {
-  it('takes a string argument and logs it in all caps using console.log()', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough();
-
-    logShout('hello');
-
-    expect(spy).toHaveBeenCalledWith('HELLO');
-
-    console.log.restore();
+describe('introductionWithLanguageOptional(name, language)', function() {
+  it('takes in two arguments, a name and a language, and language defaults to JavaScript', function() {
+    expect(introductionWithLanguageOptional("Gracie")).toEqual("Hi, my name is Gracie and I am learning to program in JavaScript.");
   })
 })
 
-describe('logWhisper(string)', function() {
-  it('takes a string argument and logs it in all lowercase using console.log()', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough();
-
-    logWhisper('HELLO');
-
-    expect(spy).toHaveBeenCalledWith('hello');
-
-    console.log.restore();
-  })
-})
-
-describe('sayHiToGrandma(string)', function() {
-  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!");
-  })
-
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!");
-  })
-
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.");
+describe('introductionWithLanguageOptional(name, language)', function() {
+  it('takes in two arguments, a name and a language, and the default value can be overridden with an argument', function() {
+    expect(introductionWithLanguageOptional("Gracie", "Python")).toEqual("Hi, my name is Gracie and I am learning to program in Python.");
   })
 })
