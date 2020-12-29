@@ -23,7 +23,7 @@ running `npm test` in the terminal.
 ## Define a Function That Uses a Parameter
 
 **Instructions:** Define a function called `introduction` that defines a
-parameter, `name`, and logs the phrase: "Hi, my name is #{name}."
+parameter, `name`, and returns the phrase: "Hi, my name is #{name}."
 
 ## Define a Function That Uses Two Parameters
 
@@ -41,7 +41,7 @@ with commas between each.
 
 **Instructions:** To pass the second test, you'll need to define a function
 called `introductionWithLanguage` that defines two parameters, `name` and
-`language`, and logs the phrase: "Hi, my name is [name] and I am learning to
+`language`, and returns the phrase: "Hi, my name is [name] and I am learning to
 program in [language]."
 
 ## Define a Function That Uses an Optional Parameter
