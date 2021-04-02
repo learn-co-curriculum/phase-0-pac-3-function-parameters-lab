@@ -23,7 +23,7 @@ running `npm test` in the terminal.
 ## Define a Function That Uses a Parameter
 
 **Instructions:** Define a function called `introduction` that defines a
-parameter, `name`, and returns the phrase: "Hi, my name is #{name}."
+parameter, `name`, and returns the phrase: "Hi, my name is ${name}."
 
 ## Define a Function That Uses Two Parameters
 
