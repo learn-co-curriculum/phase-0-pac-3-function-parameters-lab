@@ -35,8 +35,8 @@ function logTwoValues(value1, value2) {
 }
 ```
 
-As you might expect, if we instead wanted to log three values &mdash; or ten
-values &mdash; we can just continue listing the parameters in the parentheses,
+As you might expect, if we instead wanted to log three values — or ten
+values — we can just continue listing the parameters in the parentheses,
 with commas between each.
 
 **Instructions:** To pass the second test, you'll need to define a function
