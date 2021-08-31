@@ -1,10 +1,10 @@
 # JavaScript Function Parameters Lab
 
-## Objectives
+## Learning Goals
 
-* Define a function that uses a parameter
-* Define a function that uses two parameters
-* Define a function with a parameter that has a default value
+- Define a function that uses a parameter
+- Define a function that uses two parameters
+- Define a function with a parameter that has a default value
 
 ## Introduction
 
