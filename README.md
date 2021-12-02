@@ -27,7 +27,9 @@ parameter, `name`, and returns the phrase: "Hi, my name is ${name}."
 
 ## Define a Function That Uses Two Parameters
 
-Setting up your function to use two parameters is straightforward: simply include both parameters in the parentheses in the function declaration line, separated by a comma:
+Setting up your function to use two parameters is straightforward: simply
+include both parameters in the parentheses in the function declaration line,
+separated by a comma:
 
 ```js
 function logTwoValues(value1, value2) {
