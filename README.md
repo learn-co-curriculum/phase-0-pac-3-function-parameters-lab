@@ -14,11 +14,10 @@ how to create a default value for a parameter.
 If you haven't already, fork and clone this lab into your local environment.
 Navigate into its directory in the terminal, then run `code .` to open the files
 in Visual Studio Code. (If you are using a different text editor, the command
-will be different.) Finally, run `npm install` to install the lab's
-dependencies.
+will be different.)
 
 You will be writing your code in the `index.js` file and running the tests by
-running `npm test` in the terminal.
+running `learn test` in the terminal.
 
 ## Define a Function That Uses a Parameter
 
@@ -75,19 +74,3 @@ argument, the function will use the default value, logging "Hello, User!"
 `introductionWithLanguageOptional`. It should have two parameters, `name` and
 `language`, and the second parameter should have a default value of
 "JavaScript".
-
-## Saving Your Work Remotely
-
-Currently, the work you've done on this assignment is only on your local
-machine. To preserve your solution on your GitHub fork, you will need to stage the
-changes you've made, commit them, and push the commit up to GitHub. Use
-the following commands to do this:
-
-```console
-$ git add .
-$ git commit -m "Completed assignment"
-$ git push
-```
-
-If you visit your fork on GitHub, you should now see that _you've_ made the most
-recent commit, and your code will be present in the files.
