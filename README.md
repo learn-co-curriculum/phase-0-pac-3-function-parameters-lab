@@ -12,12 +12,14 @@ In this lab, we'll practice using parameters in our functions. We'll also learn
 how to create a default value for a parameter.
 
 If you haven't already, fork and clone this lab into your local environment.
-Navigate into its directory in the terminal, then run `code .` to open the files
-in Visual Studio Code. (If you are using a different text editor, the command
-will be different.)
+Remember to **fork** a copy into your GitHub account first, then clone from that
+copy. Once you've cloned it down, navigate into its directory in the terminal,
+then run `code .` to open the files in Visual Studio Code. (If you are using a
+different text editor, the command will be different.)
 
 You will be writing your code in the `index.js` file and running the tests by
-running `learn test` in the terminal.
+running `npm test` in the terminal. Remember to run `npm install` first to
+install the lab's dependencies.
 
 ## Define a Function That Uses a Parameter
 
