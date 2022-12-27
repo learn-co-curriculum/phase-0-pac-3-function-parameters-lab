@@ -76,3 +76,10 @@ argument, the function will use the default value, logging "Hello, User!"
 `introductionWithLanguageOptional`. It should have two parameters, `name` and
 `language`, and the second parameter should have a default value of
 "JavaScript".
+
+After you have all the tests passing, remember to commit and push your changes
+up to GitHub, then submit your work to Canvas using CodeGrade. If you need a
+reminder, go back to the [Complete Your First Software Engineering
+Assignment][complete-assignment] lesson to review the process.
+
+[complete-assignment]: https://github.com/learn-co-curriculum/phase-0-completing-assignments-codegrade
