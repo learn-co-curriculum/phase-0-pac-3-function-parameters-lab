@@ -6,7 +6,7 @@ describe('introduction(name)', function() {
       return `Hi, my name is ${name}.`;
     }
     expect(introduction("Aki", "Ember.js")).toEqual("Hi, my name is Aki.");
-    expect(introduction("Samip", "React")).toEqual("Hi, my name is Samip.");
+    expect(introduction("Samip")).toEqual("Hi, my name is Samip.");
   })
 })
 
